@@ -39,13 +39,3 @@ This is a simple quiz application built using Flutter. The app presents a series
 - After answering all questions, view the results.
 - Restart the quiz if desired.
 
-## Screenshots
-- ![Start Screen](screenshots/start_screen.png)
-- ![Questions Screen](screenshots/questions_screen.png)
-- ![Results Screen](screenshots/results_screen.png)
-
-## Contributing
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
