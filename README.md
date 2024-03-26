@@ -1,16 +1,41 @@
-# second_app
+# Quiz App
 
-A new Flutter project.
+This is a simple quiz application built using Flutter. The app presents a series of questions to the user and allows them to select answers. Once all questions are answered, the app displays the results.
 
-## Getting Started
+## Features
+- Start screen with a start button to begin the quiz.
+- Questions screen where users can answer questions.
+- Results screen showing the selected answers.
+- Ability to restart the quiz.
 
-This project is a starting point for a Flutter application.
+## Screens
 
-A few resources to get you started if this is your first Flutter project:
+### Start Screen
+- Displays the app logo and a welcome message.
+- Provides a button to start the quiz.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Questions Screen
+- Displays questions fetched from the data source.
+- Allows users to select answers to each question.
+- Automatically proceeds to the next question after an answer is selected.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Results Screen
+- Shows the selected answers once all questions are answered.
+- Provides an option to restart the quiz.
+
+## Installation
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd quiz_app`
+3. Run the app: `flutter run`
+
+## Dependencies
+- flutter/material.dart
+- google_fonts
+
+## Usage
+- Start the app by running `flutter run`.
+- Click on "Start Quiz" to begin.
+- Answer each question by selecting an option.
+- After answering all questions, view the results.
+- Restart the quiz if desired.
+
